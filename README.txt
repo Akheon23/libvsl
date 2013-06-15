@@ -1,3 +1,8 @@
+INTRO
+LibVSL is a library for creating secure virtual networks. It is different from any other VPN library because it is following the same approach as TOR in creating a secure AND anonymous network where nobody really knows who anybody else is. 
+
+LibVSL uses raw datagrams for transfering all data and implements a connection layer on top of that. This also allows LibVSL to work like bittorrent and access nodes that are behind firewall. 
+
 COMPILING
 You will need openssl installed with the required libraries (libssl 
 and libcrypt). 
