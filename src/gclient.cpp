@@ -84,6 +84,8 @@ void cleanup(){
 }
 
 static bool shutting_down = false;
+static bool is_running = false; 
+
 void signal_handler(int sig){
 	if(shutting_down) {
 		LOG(1,"SHUTDOWN ALREADY IN PROGRESS!");
