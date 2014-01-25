@@ -17,7 +17,7 @@ SecretService::~SecretService(){
 	}
 }
 
-void addConnectionChain(const URL &localaddr, const list<URL> &urls, const URL &remoteaddr){
+void SecretService::addConnectionChain(const URL &localaddr, const list<URL> &urls, const URL &remoteaddr){
 	
 }
 	

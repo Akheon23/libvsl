@@ -40,7 +40,7 @@ Free software. Part of the GlobalNet project.
 #include <fcntl.h>
 #include <math.h>
 #include "optionparser.h"
-#include "vsocket/vsocket.h"
+#include <vsocket.h>
 
 using namespace std;
 
