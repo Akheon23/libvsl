@@ -50,9 +50,11 @@ libudt.a: $(OBJS)
 
 udt:
 	cp udt.h udt
-
+check: 
+	echo "Running tests for udt..."
 clean:
 	rm -f *.o *.so *.dylib *.a udt
-
+distclean: 
+	make -C . clean
 install:
 	export LD_LIBRARY_PATH=$(DIR):$$LD_LIBRARY_PATH

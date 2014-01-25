@@ -7,6 +7,7 @@ AM_INIT_AUTOMAKE(libvsl, 0.0.4)
 
 AC_CONFIG_SRCDIR([config.h.in])
 AC_CONFIG_HEADERS([config.h])
+AC_CONFIG_SUBDIRS([vsocket])
 
 # Checks for programs.
 AC_PROG_CXX
@@ -51,5 +52,5 @@ AC_FUNC_STRERROR_R
 AC_CHECK_FUNCS([atexit bzero gethostbyname gettimeofday inet_ntoa memset pow select socket strerror])
 
 AC_CONFIG_FILES([Makefile
-                 src/Makefile])
+									src/Makefile])
 AC_OUTPUT
